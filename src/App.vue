@@ -1,14 +1,19 @@
 <template>
     <div id="app">
-        <div id="nav">
-            <router-link to="/money">Money</router-link>
-            <router-link to="/label">About</router-link>
-            <router-link to="/statistics">statistics</router-link>
-        </div>
-        <router-view/>
+        <router-view></router-view>
     </div>
 </template>
 
-<style lang="scss">
+<script>
+    export default {
+        name: 'app'
+    }
+</script>
 
+<style lang="scss">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 </style>
