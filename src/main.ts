@@ -5,10 +5,12 @@ import router from './router';
 import store from './store';
 import BottomNav from '@/components/BottomNav.vue';
 import Layout from '@/components/Layout.vue';
+import Icon from '@/components/Icon.vue';
 
 Vue.config.productionTip = false;
 Vue.component('BottomNav', BottomNav);
 Vue.component('Layout', Layout);
+Vue.component('Icon',Icon);
 
 new Vue({
     router,

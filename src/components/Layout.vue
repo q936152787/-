@@ -16,13 +16,14 @@
 </script>
 
 <style scoped>
-.wrapper{
-    border: #000011 solid 1px;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-    .content{
+    .wrapper {
+        border: #000011 solid 1px;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .content {
         flex-grow: 1;
         overflow: auto;
     }
